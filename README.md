@@ -12,13 +12,35 @@ A simple Python application for retrieving and displaying emails using the IMAP 
 - Required libraries: `imaplib`, `email`
 
 ## Installation
-1. Clone the repository:
+
+1. Clone the repository:  
    ```bash
    git clone https://github.com/barisatay0/basic-imap-email-viewer.git
    cd basic-imap-email-viewer
-## Run
-- Change the email and password from main.py
--   use "python main.py" or "python3 main.py"
-    ```bash
-    python main.py
-    python3 main.py
+   ```
+
+2. Create and activate a virtual environment:  
+   On Linux/macOS:  
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+   On Windows:  
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+
+3. Install required libraries:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Update the email and password in `main.py`.
+
+
+5. Run the application:  
+   ```bash
+   python main.py
+   ```
